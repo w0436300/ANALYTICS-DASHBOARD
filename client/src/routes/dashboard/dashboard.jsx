@@ -22,7 +22,7 @@ export default function Dashboard() {
                 data: [30, 40, 45, 50, 49, 60, 70, 91, 125]
             }],
             xaxis: {
-                categories: [1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999]
+                categories: [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
             }
         };
     
@@ -36,7 +36,7 @@ export default function Dashboard() {
                 data: [40, 45, 50, 55, 60, 65, 70, 80, 90]
             }],
             xaxis: {
-                categories: [1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999]
+                categories: [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
             }
         };
 
@@ -70,23 +70,23 @@ export default function Dashboard() {
                 {
                     name: 'Series 1',
                     data: [
-                        { x: new Date('2018-02-12').getTime(), y: 76 },
-                        { x: new Date('2018-03-12').getTime(), y: 85 },
-                        { x: new Date('2018-04-12').getTime(), y: 101 },
-                        { x: new Date('2018-05-12').getTime(), y: 98 },
-                        { x: new Date('2018-06-12').getTime(), y: 107 },
-                        { x: new Date('2018-07-12').getTime(), y: 80 }
+                        { x: new Date('2024-02-12').getTime(), y: 76 },
+                        { x: new Date('2024-03-12').getTime(), y: 85 },
+                        { x: new Date('2024-04-12').getTime(), y: 101 },
+                        { x: new Date('2024-05-12').getTime(), y: 98 },
+                        { x: new Date('2024-06-12').getTime(), y: 107 },
+                        { x: new Date('2024-07-12').getTime(), y: 80 }
                     ]
                 },
                 {
                     name: 'Series 2',
                     data: [
-                        { x: new Date('2018-02-12').getTime(), y: 65 },
-                        { x: new Date('2018-03-12').getTime(), y: 75 },
-                        { x: new Date('2018-04-12').getTime(), y: 90 },
-                        { x: new Date('2018-05-12').getTime(), y: 85 },
-                        { x: new Date('2018-06-12').getTime(), y: 95 },
-                        { x: new Date('2018-07-12').getTime(), y: 70 }
+                        { x: new Date('2024-02-12').getTime(), y: 65 },
+                        { x: new Date('2024-03-12').getTime(), y: 75 },
+                        { x: new Date('2024-04-12').getTime(), y: 90 },
+                        { x: new Date('2024-05-12').getTime(), y: 85 },
+                        { x: new Date('2024-06-12').getTime(), y: 95 },
+                        { x: new Date('2024-07-12').getTime(), y: 70 }
                     ]
                 }
             ],
